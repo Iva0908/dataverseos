@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include necessary scripts and styles -->
+</head>
+<body>
+    <h1>Dataverse OS MetaMask Redirect dApp</h1>
+    <button id="redirectButton">Redirect to MetaMask</button>
+
+    <script>
+        // Add event listener to the redirect button
+        document.getElementById('redirectButton').addEventListener('click', () => {
+            // Trigger the smart contract function to initiate the redirect
+            // using Solana's JavaScript/TypeScript library (@solana/web3.js)
+
+            // Once the transaction is confirmed, redirect to MetaMask using a link or API
+            window.location.href = 'https://metamask.io/';
+
+            // Alternatively, you can use a custom URL scheme or MetaMask-specific URI to
+            // open the MetaMask extension.
+        });
+    </script>
+</body>
+</html>
